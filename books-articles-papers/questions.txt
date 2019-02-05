@@ -1,0 +1,7 @@
+1. What is monkey patching in pandas?
+2. list and tuple difference
+3. if you have to remove third ;ast number fromlist
+4. assign a string to str and delete it.
+5. list contains random elements, one repeating. fastest
+way to find repeating element.
+6. readmode in python and syntax
