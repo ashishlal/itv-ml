@@ -1,0 +1,147 @@
+1.How will you improve the performance of a program in Python?
+
+a. Use some of Python’s “speedup” applications.
+b. Using generators & sorting with keys.
+c. Using the latest releases of Python
+d. Avoid unwanted loops
+e. Try out multiple coding approaches
+f. Keep Python code small and light
+g. Cloud-based application performance monitoring
+
+2.What are the benefits of using Python?
+
+a. Python can be used to develop prototypes, and quickly because it is so easy to work with and read.
+b.  Most automation, data mining, and big data platforms rely on Python. This is because it is the ideal language to work with for general purpose tasks.
+c. Python allows for a more productive coding environment than massive languages like C# and Java. Experienced coders tend to stay more organized and productive when working with Python, as well.
+d. Python is easy to read, even if you're not a skilled programmer. Anyone can begin working with the language, all it takes is a bit of patience and a lot of practice. Plus, this makes it an ideal candidate for use among multi-programmer and large development teams.
+e. Python powers Django, a complete and open source web application framework. Frameworks - like Ruby on Rails - can be used to simplify the development process.
+f. It has a massive support base thanks to the fact that it is open source and community developed. Millions of like-minded developers work with the language on a daily basis and continue to improve core functionality. The latest version of Python continues to receive enhancements and updates as time progresses. This is a great way to network with other developers.
+
+
+3.How will you specify source code encoding in a Python source file?
+
+To make the Python source code encoding both visible and changeable on a per-source file basis by using a special comment at the top of the file to declare the encoding.
+
+4.What is the use of PEP 8 in Python?
+
+PEP 8, sometimes spelled PEP8 or PEP-8, is a document that provides guidelines and best practices on how to write Python code.
+
+5.What is Pickling in Python?
+
+Pickling is a way to convert a python object (list, dict, etc.) into a character stream. The idea is that this character stream contains all the information necessary to reconstruct the object in another python script.
+
+6.How does memory management work in Python?
+
+Python uses garbage collection rather than manual memory management. You just freely create objects and the language's memory manager periodically looks for any objects that are no longer referenced by your program. So if you want to hold on to an object, just hold a reference to it.
+
+The Python memory manager has different components which deal with various dynamic storage management aspects, like sharing, segmentation, preallocation or caching.
+
+###7.How will you perform Static Analysis on a Python Script?
+
+8.What is the difference between a Tuple and List in Python?
+
+The main difference between lists and a tuples is the fact that lists are mutable whereas tuples are immutable. A mutable data type means that a python object of this type can be modified.
+
+9.What is a Python Decorator?
+
+Decorators provide a simple syntax for calling higher-order functions. By definition, a decorator is a function that takes another function and extends the behavior of the latter function without explicitly modifying it.
+
+10.How are arguments passed in a Python method? By value or by reference?
+
+Arguments are passed neither by value and nor by reference in Python - instead they are passed by assignment. The parameter passed in is actually a reference to an object, as opposed to reference to a fixed memory location but the reference is passed by value.
+
+11.What is the difference between List and Dictionary data types in Python?
+
+List is a mutable type meaning that lists can be modified after they have been created. Python dictionary is an implementation of a hash table and is a key-value store. It is not ordered and it requires that the keys are hashtable.
+
+12.What are the different built-in data types available in Python?
+
+bool: Boolean (true/false) types. Supported precisions: 8 (default) bits.
+int: Signed integer types. Supported precisions: 8, 16, 32 (default) and 64 bits.
+uint: Unsigned integer types. ...
+float: Floating point types. ...
+complex: Complex number types. ...
+string: Raw string types. ...
+time: Data/time types. ...
+enum: Enumerated types.
+
+13.What is a Namespace in Python?
+
+A namespace is a declarative region that provides a scope to the identifiers (the names of types, functions, variables, etc) inside it. Namespaces are used to organize code into logical groups and to prevent name collisions that can occur especially when your code base includes multiple libraries.
+
+14.How will you concatenate multiple strings together in Python?
+
+In order to merge two strings into a single object, you may use the “+” operator.
+
+15.What is the use of Pass statement in Python?
+
+The pass statement in Python is used when a statement is required syntactically but you do not want any command or code to execute. The pass statement is a null operation; nothing happens when it executes.
+
+16.What is the use of Slicing in Python?
+
+Python Slicing (Lists, Tuples and Arrays) in Reverse. ... Lists have a default bit of functionality when slicing. If there is no value before the first colon, it means to start at the beginning index of the list. If there isn't a value after the first colon, it means to go all the way to the end of the list.
+
+17.What is the difference between Docstring in Python and Javadoc in Java?
+
+Java-Actually, they are called document comments and javadoc is a tool to generate those comments into HTML.
+Pyhton- It's specified in source code that is used, like a comment, to document a specific segment of code.
+
+18.How do you perform unit testing for Python code?
+
+Unit Testing in Python is done to identify bugs early in the development stage of the application when bugs are less recurrent and less expensive to fix.
+
+A unit test is a scripted code level test designed in Python to verify a small "unit" of functionality. Unit test is an object oriented framework based around test fixtures
+
+19.What is the difference between an Iterator and Iterable in Python?
+
+Difference between iterable and iterator. Iterable is an object, which one can iterate over. It generates an Iterator when passed to iter() method. 
+Iterator is an object, which is used to iterate over an iterable object using __next__() method
+
+20.What is the use of Generator in Python?
+
+A Python generator is a function that produces a sequence of results. It works by maintaining its local state, so that the function can resume again exactly where it left off when called subsequent times. Thus, you can think of a generator as something like a powerful iterator.
+
+###21.What is the significance of functions that start and end with _ symbol in Python?
+
+22.What is the difference between xrange and range in Python?
+
+In Python 3, there is no xrange , but the range function behaves like xrange in Python 2. ... range() – This returns a list of numbers created using range() function. ... Both are implemented in different ways and have different characteristics ...
+
+23.What is lambda expression in Python?
+
+This function can have any number of arguments but only one expression, which is evaluated and returned. One is free to use lambda functions wherever function objects are required.
+
+###24.How will you copy an object in Python?
+
+25.What are the main benefits of using Python?
+
+26.What is a metaclass in Python?
+
+In Python a metaclass can be a class , function or any object that supports calling an interface. This is because to create a class object; its metaclass is called with the class name, base classes and attributes (methods). When no metaclass is defined (which is usually the case), the default metaclass type is used
+
+27.What is the use of frozenset in Python?
+
+frozenset() in Python. The frozenset() is an inbuilt function is Python which takes an iterable object as input and makes them immutable. Simply it freezes the iterable objects and makes them unchangeable. In Python, frozenset is same as set except its elements are immutable.
+
+28.What is Python Flask?
+
+Flask is a Python web framework.Flask can be used for building complex , database-driven websites,starting with mostly static pages. Flask is a micro-framework for Python. It allows you to build websites and web apps quite rapidly and easily, it's really good and light.
+
+29.What is None in Python?
+
+None is just a value that commonly is used to signify 'empty', or 'no value here'. It is a signal object.
+
+30.What is the use of zip() function in Python?
+
+The zip() function take iterables (can be zero or more), makes iterator that aggregates elements based on the iterables passed, and returns an iterator of tuples.
+
+31.What is the use of // operator in Python?
+
+Floor division - division that results into whole number adjusted to the left in the number line.
+
+32.What is a Module in Python?
+
+Simply, a module is a file consisting of Python code. A module can define functions, classes and variables. A module can also include runnable code.
+
+
+
